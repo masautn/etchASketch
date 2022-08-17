@@ -9,14 +9,39 @@ body{
 }
 
 #grid-container {
-    display: grid;
-    
+    border: 4px solid lightcoral;
+    height: auto;
+    width: 350px;
+    display: grid;    
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
+    grid-auto-columns:min-content;
+    row-gap: 0px;
+    
+    
   }
 
 #subgrid {
-    padding: 1em;
+    display: flex;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+
+    
     border: 1px solid black;
+
+}
+
+#containerBtn {
     text-align: center;
+    margin-top: 50px;
+}
+
+
+#containerWraper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
