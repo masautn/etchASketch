@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Landing-Page-odin"
+		},
+		{
+			"path": "../library"
+		},
+		{
+			"path": "../rps-game"
+		},
+		{
+			"path": "../signup-form"
+		}
+	]
+}
